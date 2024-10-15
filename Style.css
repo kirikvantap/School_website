@@ -1,0 +1,8 @@
+.wraper{
+    display:flex;
+    flex-direction:column;
+}
+.Bottom{
+    display: flex;
+    flex-direction: row;
+}
