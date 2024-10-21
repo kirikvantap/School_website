@@ -13,10 +13,6 @@
 #headerid{
     text-align:center;
 }
-.Bottom{
-    display: flex;
-    flex-direction: row;
-}
 .base{
     margin-top:15px;
     width:80%;
@@ -25,7 +21,9 @@
     height:500px;
     margin-bottom:15px;
 }
-.bottom{
+.Bottom{
+    display: flex;
+    flex-direction: row;
     width:80%;
     margin-top:15px;
     margin-left:10%;
