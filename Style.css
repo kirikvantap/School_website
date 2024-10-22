@@ -1,13 +1,14 @@
 .wraper{
     display:flex;
     flex-direction:column;
+    justify-content: center;
 }
 .headder{
     width:80%;
     margin-top:45px;
     margin-bottom:15px;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:5%;
+    margin-right:5%;
     height:75px;
 }
 #headerid{
@@ -16,9 +17,9 @@
 .base{
     margin-top:15px;
     width:80%;
-    margin-left:10%;
-    margin-right:10%;
-    height:500px;
+    margin-left:5%;
+    margin-right:5%;
+    height:545px;
     margin-bottom:15px;
 }
 .Bottom{
@@ -26,8 +27,25 @@
     flex-direction: row;
     width:80%;
     margin-top:15px;
-    margin-left:10%;
-    margin-right:10%;
-    height:auto;
+    margin-left:5%;
+    margin-right:5%;
+    height:200px;
     margin-bottom:15px;
+    
+}
+.base, .Bottom, .headder, .events, .news, .count_till_holidays{
+    /*Этот фрагмент нужен только для выделения границ дивов(div)*/
+    border-width:2px;
+    border-color:black;
+    border-style:dashed;
+}
+
+.events, .news, .count_till_holidays{
+    margin: 5px auto 5px auto;
+}
+#mtable{
+    border-color: black;
+    border-style:dashed;
+    border-width:1px;
+
 }
