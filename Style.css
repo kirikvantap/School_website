@@ -11,9 +11,6 @@
     margin-right:5%;
     height:75px;
 }
-#headerid{
-    text-align:center;
-}
 .base{
     margin-top:15px;
     width:80%;
@@ -21,6 +18,12 @@
     margin-right:5%;
     height:545px;
     margin-bottom:15px;
+}
+#theadid{
+    text-align: center;
+}
+.trow{
+    text-align:center;
 }
 .Bottom{
     display: flex;
@@ -48,6 +51,4 @@
     border-style:dashed;
     border-width:1px;
     width:100%;
-}
-#day_of_week_table{
 }
