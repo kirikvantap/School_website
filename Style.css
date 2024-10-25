@@ -47,5 +47,7 @@
     border-color: black;
     border-style:dashed;
     border-width:1px;
-
+    width:100%;
+}
+#day_of_week_table{
 }
