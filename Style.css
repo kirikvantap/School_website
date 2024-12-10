@@ -71,14 +71,12 @@ html, body{
 .Data_of_table{
     border: none none none;
     background-color:lightgray;
-
-
 }
 .Data_of_thead{
     border: 0.5px dashed black;
 }
 .data_of_table_yes:nth-child(odd){
-    background-color:darkgray;
+    background-color:blue;
 }
 .data_of_table_yes:nth-child(even){
     background-color:lightgray;
