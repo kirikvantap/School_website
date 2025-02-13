@@ -78,8 +78,12 @@ main{
     border: none none none;
     background-color:white;
     box-shadow: 0px 5px 10px 0px rgba(86, 86, 86, 0.5);
-    border-radius:5%
-    
+    border-radius:10px;
+}
+#test1{
+    width:5px;
+    height:5px;
+    background-color:purple;
 }
 .Data_of_thead{
     border: 0.5px dashed black;
